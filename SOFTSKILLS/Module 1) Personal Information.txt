@@ -1,0 +1,17 @@
+Module 1) Personal Information
+	● Briefly introduce yourself: name, educational background, and current status
+	(student or professional).
+	
+	=> My name is Nikunj Gagliya and i am currently doing php backend course at TOPs Technologies ,
+		i have completed my Bachelors Degree in Bachelor of Computer Application from Saurashtra University.
+
+	● Mention key personality traits, such as your creativity, analytical skills, or passion for
+	problem-solving.
+
+	=> I have good problem Solving Skills and i have passion for coding, my analytical skills are good.
+
+	● Explain your interest in technology and why you chose this career path.
+
+	=> Throughout my journey, I've been drawn to various aspects of technology, including artificial intelligence,
+	   data analysis, and software development. I'm excited to continue learning, growing,
+	   and pushing the boundaries of what's possible in this field.
