@@ -1,0 +1,17 @@
+• Explain ORM
+->
+The Eloquent ORM included with Laravel provides a beautiful, simple ActiveRecord implementation for working with your database. Each database table has a corresponding "Model" which is used to interact with that table. Before getting started, be sure to configure a database connection in config/database.
+
+• Explain - Eloquent Relationships
+->
+Eloquent relationships are a powerful feature of Laravel that allows developers to easily work with related data. From one-to-one to many-to-many relationships, Eloquent provides a simple and intuitive syntax to define and query these relationships.
+
+• What is Eager Loading and lazy loading?
+->
+eager loading and lazy loading are two different techniques for retrieving related data when working with Eloquent models. They are used to optimize the performance of your application by reducing the number of database queries needed to fetch related data
+
+->
+Lazy loading, also known as "on-demand loading," is the default behavior in Eloquent. When you access a related model or collection, Eloquent will only retrieve the data from the database at the moment you request it. This means that for each access to a related record, a separate database query is executed.
+
+->
+Eager loading is the process of fetching related data along with the main model's data in a single query. This is accomplished using the with() method in Eloquent. Eager loading is useful when you know that you will need the related data for a set of records and want to avoid the N+1 query problem, where N is the number of records in the result set.
