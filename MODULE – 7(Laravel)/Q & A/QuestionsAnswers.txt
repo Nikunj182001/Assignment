@@ -1,0 +1,19 @@
+• How to pass Multiple Variable in route?
+->
+    <a class="dropdown-item" href="{{ route('dress', [$id, $btntype]) }}">View</a>
+
+    Route::get('/dress/{id}/{btntype}');
+
+    // then you'd use
+    route('dress', ['id' => $id, 'btntype' => $btntype]);
+
+
+• How to pass variable which can be null in Route?
+->
+    route('some_route_name/{id?}','Controller@show');
+
+    public function show($id = null)
+
+• How to remove route caching? 
+->
+    php artisan cache:clear
